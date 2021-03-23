@@ -1,0 +1,29 @@
+{
+  "name": "setup-react-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyrharper/react-express-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyrharper/react-express-setup/issues"
+  },
+  "homepage": "https://github.com/tommyrharper/react-express-setup#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
